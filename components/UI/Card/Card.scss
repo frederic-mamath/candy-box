@@ -1,0 +1,46 @@
+@import "styles/colors.scss";
+@import "styles/sizes.scss";
+
+.view {
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(168, 182, 191, 0.6);
+  border-radius: Grid(1);
+  margin: Grid(2);
+  overflow: hidden;
+  position: relative;
+  transition: all 150ms ease-in-out;
+  top: 0;
+
+  &:hover {
+    top: -4px;
+    box-shadow: 8px 8px 2px 0 rgba(168, 182, 191, 0.6);
+  }
+
+  .image {
+    align-items: center;
+    background-color: #40c4ff;
+    display: flex;
+    height: 128px;
+    justify-content: center;
+    width: 256px;
+
+    .icon {
+      color: white;
+      font-size: 2em;
+    }
+  }
+
+  .text {
+    text-align: center;
+
+    .label {
+      padding-top: Grid(2);
+      font-weight: bold;
+    }
+
+    .description {
+      padding: Grid(2);
+      color: darken(Color(white), 30%);
+    }
+  }
+}

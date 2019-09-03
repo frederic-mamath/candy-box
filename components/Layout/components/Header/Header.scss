@@ -1,0 +1,17 @@
+@import "styles/sizes.scss";
+
+.view {
+  background-color: #ffdd67;
+
+  .title {
+    font-size: Grid(6);
+    margin: 0;
+    padding-top: Grid(3);
+    text-align: center;
+  }
+
+  .subtitle {
+    padding-bottom: Grid(3);
+    text-align: center;
+  }
+}
