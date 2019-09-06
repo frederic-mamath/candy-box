@@ -22,6 +22,7 @@
     "plop-templates",
     "mocks",
     "next.config.js",
-    "plopfile.js"
+    "plopfile.js",
+    "server.js"
   ]
 }
