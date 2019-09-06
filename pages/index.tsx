@@ -15,6 +15,9 @@ const Index = ({  }: Props) => (
     <Card description="Contacts" icon="cb-contacts"></Card>
     <Card description="License" icon="cb-license"></Card>
     <Card description="Plus" icon="cb-plus"></Card>
+    <Card description="Check" icon="cb-check"></Card>
+    <Card description="Empty Check" icon="cb-empty-check"></Card>
+    <Card description="Cross" icon="cb-cross"></Card>
   </div>
 );
 

@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "icomoon";
-  src: url("fonts/icomoon.eot?dpwuo1");
-  src: url("fonts/icomoon.eot?dpwuo1#iefix") format("embedded-opentype"),
-    url("fonts/icomoon.ttf?dpwuo1") format("truetype"),
-    url("fonts/icomoon.woff?dpwuo1") format("woff"),
-    url("fonts/icomoon.svg?dpwuo1#icomoon") format("svg");
+  font-family: "candybox";
+  src: url("fonts/candybox.eot?qtvrcm");
+  src: url("fonts/candybox.eot?qtvrcm#iefix") format("embedded-opentype"),
+    url("fonts/candybox.ttf?qtvrcm") format("truetype"),
+    url("fonts/candybox.woff?qtvrcm") format("woff"),
+    url("fonts/candybox.svg?qtvrcm#candybox") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -13,8 +13,7 @@
 [class^="cb-"],
 [class*=" cb-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
-  speak: none;
+  font-family: "candybox" !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -52,4 +51,13 @@
 }
 .cb-plus:before {
   content: "\ea0a";
+}
+.cb-cross:before {
+  content: "\ea0f";
+}
+.cb-check:before {
+  content: "\ea10";
+}
+.cb-empty-check:before {
+  content: "\ea11";
 }
