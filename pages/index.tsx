@@ -13,6 +13,8 @@ const Index = ({  }: Props) => (
     <Card description="Price" icon="cb-price"></Card>
     <Card description="Credit Card" icon="cb-credit-card"></Card>
     <Card description="Contacts" icon="cb-contacts"></Card>
+    <Card description="License" icon="cb-license"></Card>
+    <Card description="Plus" icon="cb-plus"></Card>
   </div>
 );
 
