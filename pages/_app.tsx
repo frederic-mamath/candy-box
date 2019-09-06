@@ -5,6 +5,7 @@ import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
 import App, { Container } from "next/app";
 import withRedux from "next-redux-wrapper";
+import Head from "next/head";
 
 import rootReducer from "ducks/root";
 import Layout from "components/Layout";
@@ -48,6 +49,9 @@ class MyApp extends App {
 
     return (
       <Container>
+        <Head>
+          <title>Candy Box</title>
+        </Head>
         <Provider store={store}>
           <Layout>
             <Component {...pageProps} key={router.route} />

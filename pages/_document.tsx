@@ -11,8 +11,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Workshop</title>
-          <style>{`body { margin: 0 }`}</style>
+          <style>{`body { }`}</style>
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
